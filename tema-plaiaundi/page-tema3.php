@@ -6,7 +6,7 @@ Template Name: Ejercicios JavaScript tema 3
 get_header();
 $ejercicio_seleccionado = tema_plaiaundi_obtener_ejercicio_seleccionado();
 $titulos_ejercicios = array(
-    '¿Prueba de ejercicio Tema 3',
+    'Suma array',
 
 );
 ?>

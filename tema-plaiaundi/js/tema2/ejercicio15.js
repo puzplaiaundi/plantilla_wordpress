@@ -36,11 +36,3 @@ function describirPerfil(perfil) {
 perfiles.forEach((perfil) => {
 	console.log(describirPerfil(perfil));
 });
-
-/*
- * Comprueba estos casos en la consola:
- * 1. Cambia `??` por `||` en `ejercicios` y observa qué ocurre con el valor 0.
- * 2. Elimina `?.` de una de las rutas y comprueba qué sucede con un perfil incompleto.
- * 3. Cambia la condición del operador `? :` para marcar como "completado" a
- *    quien tenga al menos 10 ejercicios.
- */

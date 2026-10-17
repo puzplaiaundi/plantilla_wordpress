@@ -17,8 +17,8 @@ register_nav_menus(
     )
 );
 function tema_plaiaundi_obtener_tema_actual(){
-    if (is_page_template('page-tema1.php')) {
-        return 'tema1';
+    if (is_page_template('page-ejercicios.php') || is_page_template('page-tema1.php')) {
+        return 'tema2';
     } elseif (is_page_template('page-tema2.php')) {
         return 'tema2';
     } elseif (is_page_template('page-tema3.php')) {
@@ -67,6 +67,10 @@ function tema_plaiaundi_encolar_ejercicio() {
         $tema,
         $ejercicio
     );
+
+    if (!file_exists(get_theme_file_path($archivo))) {
+        return;
+    }
 
     wp_enqueue_script(
         'tema-plaiaundi-ejercicio',

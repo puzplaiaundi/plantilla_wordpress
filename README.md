@@ -5,6 +5,12 @@ Este proyecto utiliza **Docker Compose** para crear un entorno de desarrollo con
 
 Antes de iniciar los contenedores es necesario configurar las variables de entorno del proyecto.
 
+## Documento de ejercicios
+
+[Documento de ejercicios del Tema 2]([pincha aquí](https://docs.google.com/document/d/1GBoTEqI-TxVbfjjAMdtf0oiAQFYJESKwV-ujaeiNlFI/edit))
+
+[Documento de ejercicios del Tema 3]([pincha aquí](https://docs.google.com/document/d/1SuC65_J2yeWRJ7vUGf-2g6fz-Ei8N_CGEKMN2ZRaOHA/edit?usp=sharing))
+
 ## Configuración de las variables de entorno
 
 El repositorio contiene el archivo:

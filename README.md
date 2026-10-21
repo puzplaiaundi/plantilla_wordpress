@@ -1,3 +1,6 @@
+
+[Ver documento en Google Docs](https://docs.google.com/document/d/1_QCo6CMZMzI6b-ZWwieVtb3ba61isydkU1HnGyol4UM/edit?usp=sharing)
+
 # plantillas_wordpress
 # Plantilla WordPress con Docker
 

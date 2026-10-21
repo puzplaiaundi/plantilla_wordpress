@@ -10,20 +10,11 @@
 
                 <article>
 
-                    <?php if (has_post_thumbnail()) { ?>
-                        <?php the_post_thumbnail(); ?>
-                    <?php } ?>
-
                     <h2>
                         <a href="<?php the_permalink(); ?>">
                             <?php the_title(); ?>
                         </a>
                     </h2>
-
-                    <p>
-                        Publicado por <?php the_author(); ?>
-                        el <?php echo get_the_date(); ?>
-                    </p>
 
                     <p>
                         Categorías: <?php the_category(', '); ?>
@@ -33,6 +24,16 @@
                     </p>
 
                     <?php the_excerpt(); ?>
+
+                    <?php if (has_post_thumbnail()) { ?>
+                        <?php the_post_thumbnail(); ?>
+                    <?php } ?>
+
+                    <p>
+                        Publicado por <?php the_author(); ?>
+                        el <?php echo get_the_date(); ?>
+                    </p>
+
 
                 </article>
 

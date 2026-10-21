@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Ejercicios JavaScript tema 1
+Template Name: Ejercicios JavaScript tema 1 (compatibilidad)
 */
 
 get_header();
@@ -20,6 +20,9 @@ $titulos_ejercicios = array(
     '|| frente a ??',
     'Operador ternario: cuándo ayuda y cuándo no',
     'Diagnóstico de código',
+    'Coalescencia nula, encadenamiento opcional y operador condicional',
+    'suma array',
+    'Funcion flecha',
 );
 ?>
 

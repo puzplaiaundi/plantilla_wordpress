@@ -1,5 +1,15 @@
 /*
- * Tema 2 · Fundamentos y particularidades de JavaScript
- * Ejercicio 1 · ¿Qué tipo tengo realmente?
+ * Tema 3 · Fundamentos y particularidades de JavaScript
+ * Ejercicio 1 · es par
  */
-console.log('Ejercicio tema 3');
+
+let num = prompt("Introduce un numero: ")
+
+const esPar = numero => numero%2 === 0;
+
+const llaves = numero => {
+    return numero % 2 === 0;
+};
+
+console.log(esPar(num));
+console.log(llaves(num));

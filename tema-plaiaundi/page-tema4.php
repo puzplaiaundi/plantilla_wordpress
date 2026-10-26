@@ -1,31 +1,20 @@
 <?php
-/*
-Template Name: Ejercicios JavaScript tema 1
-*/
-
+/* Template Name: Cliente Tema 4 */
 get_header();
+
 $ejercicio_seleccionado = tema_plaiaundi_obtener_ejercicio_seleccionado();
 $titulos_ejercicios = array(
-    '¿Qué tipo tengo realmente?',
-    'Number(), parseInt() y parseFloat()',
-    'Calculadora resistente a entradas incorrectas',
-    '¿const o let?',
-    'Igualdad estricta y coerción',
-    'Descuentos y condiciones límite',
-    'Truthy y falsy',
-    'Clasificación de una nota',
-    'Menú con switch',
-    'Múltiplos y divisibilidad',
-    'Acumulador con while',
-    '|| frente a ??',
-    'Operador ternario: cuándo ayuda y cuándo no',
-    'Diagnóstico de código',
+    'Ejercicio 1',
+    'Ejercicio 2',
+    'Ejercicio 3',
+    'Ejercicio 4'
+
 );
 ?>
 
-<main class="ejercicios">
-    <h2><?php the_title(); ?></h2>
-    <p>Tema 2 · Fundamentos y particularidades de JavaScript</p>
+<main>
+  <h1>Tema 4 · Objetos, clases y módulos</h1>
+  <p>Abre la consola y las herramientas de desarrollo.</p>
 
     <nav aria-label="Ejercicios de JavaScript">
         <ul class="ejercicios__lista">

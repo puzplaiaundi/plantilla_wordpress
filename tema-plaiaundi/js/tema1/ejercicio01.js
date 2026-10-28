@@ -15,3 +15,5 @@ altura=Number(altura);
 console.log(typeof nombre);
 console.log(typeof edad);
 console.log(typeof altura);
+
+/* si escribo 20 en prompt("edad") type of me devolverá string, por eso hay que convertirlo a number con Number() */

@@ -54,6 +54,7 @@ console.log("Resultado con ternario:", resultadoTernario);
  * ¿Por qué?
  *
  * RESPUESTA:
- *
+ * Para mi la versión con if/else es más legible, ya que permite ver claramente las condiciones y los resultados asociados a cada una.
+ * aunque la versión con operadores ternarios es más compacta, puede resultar más difícil de leer y entender, especialmente si hay muchas condiciones.
  *
  */

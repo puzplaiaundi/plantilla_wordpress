@@ -23,7 +23,10 @@ function tema_plaiaundi_obtener_tema_actual(){
         return 'tema2';
     } elseif (is_page_template('page-tema3.php')) {
         return 'tema3';
-    } else {
+    } elseif (is_page_template('page-tema4.php')) {
+        return 'tema4';
+    }
+     else {
         return null;
     }
 }
@@ -68,13 +71,22 @@ function tema_plaiaundi_encolar_ejercicio() {
         $ejercicio
     );
 
-    wp_enqueue_script(
-        'tema-plaiaundi-ejercicio',
-        get_theme_file_uri($archivo),
-        array(),
-        null,
-        true
-    );
+    if ($tema === 'tema4') {
+        wp_enqueue_script_module(
+            'tema-plaiaundi-ejercicio',
+            get_theme_file_uri($archivo),
+            array(),
+            null
+        );
+    } else {
+        wp_enqueue_script(
+            'tema-plaiaundi-ejercicio',
+            get_theme_file_uri($archivo),
+            array(),
+            null,
+            true
+        );
+    }
 }
 
 add_action('wp_enqueue_scripts', 'tema_plaiaundi_encolar_ejercicio');
